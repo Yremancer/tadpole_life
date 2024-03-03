@@ -1,0 +1,409 @@
+@font-face {
+    font-family: pepa;
+    src: url(assets/fonts/ProtestRiot-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+
+.container {
+    background: url(assets/main-back.webp) center/cover no-repeat;
+}
+
+.header {   
+    display: flex;  
+    background-color: #4F81DA;
+}
+
+.logo {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    margin-right: 0px;
+}
+
+.logo-img {
+    width: 70px;
+    margin: 0;
+}
+
+.logo-text {
+    font-size: 0.8em;
+}
+
+.title{
+    position: relative;
+    display: flex;
+    align-items: center;
+    order: 2;
+    margin: 0 auto;
+}
+
+.cloud-title {
+    position: absolute;
+    left: -15px;
+    width: 195px;
+    height: 100%;
+}
+
+.cloud-first {
+    position: absolute;
+    left: 1200px;
+    align-self: center;
+    width: 140px;
+    height: 90px;
+}
+
+.cloud-second {
+    position: absolute;
+    left: 250px;
+    align-self: center;
+    width: 140px;
+    height: 90px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 700px;
+    gap: 100px;
+    
+    
+}
+.indroduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.introduction-img {
+    margin-top: 20px;
+    width: 650px;
+    height: 400px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.333);
+}
+
+.indroduction-text {
+    width: 600px;
+}
+
+.text-border {
+    border: 2px solid black;
+    background-color: rgba(76, 186, 74, 0.782);
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 1.5px 1.5px 8px 0 rgba(0, 0, 0, 0.554);
+
+}
+
+.text-border1 {
+    border: 2px solid black;
+    background-color: rgba(235, 164, 43, 0.782);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.frog-develop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.pictures-frog-and-arrow {
+    display: flex;
+    justify-content: center;
+    margin-bottom:15px;
+}
+
+.tadpoel {
+    width: 90px;
+    margin: 0;
+    height: 240px;
+}
+
+.tadpoel-hand {
+    width: 150px;
+    height: 260px; 
+}
+.arrow {
+    margin: 10px;
+}
+
+.frog {
+    width: 300px;
+    margin: 0;
+}
+
+.frog-develop-text {
+    width: 460px;
+}
+
+.realistic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.realistic-show {
+    display: flex;
+    justify-content: center;
+}
+.realistic-frog {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.realistic-frog-ingame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.frog {
+    width: 250px;
+    height: 200.05px;
+}
+
+.realistic-frog-real{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.real-frog {
+    width: 300px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.333);
+}
+
+.realistic-tadpoel {
+    display: flex;
+    margin-left: 90px ;
+}
+
+.realistic-tadpoel-ingame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.tadpoel-game {
+    width: 90px;
+    height: 200.5px;
+}
+
+.realistic-tadpoel-real {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.real-tadpoel {
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.333);
+}
+
+.text-realistic {
+    width: 500px;
+    text-align: right;
+}
+
+
+.gameplay-show {
+    align-self: center;
+}
+
+.gameplay-gif {
+}
+
+.instuction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.instruction-first {
+    display: flex;
+}
+
+.instuction-img-first {
+
+}
+
+.instuction-text-first {
+    position: relative;
+    left: 160px;
+    width: 400px;
+    align-self: center;
+}
+
+.instuction-text-second {
+    width: 400px;
+    align-self: center;
+}
+
+.instruction-second {
+    display: flex;
+    gap: 20px;
+}
+
+.instuction-img-second {
+    width: 500px;
+    height: 250px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('assets/site-sand-dnishe.png');
+    align-items: center;
+}
+
+.download_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 150px;
+    background: url(assets/treasure.png) center/cover no-repeat;
+    width: 200px;
+    height: 145px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.treasure {
+    width: 200px;
+    height: 145px;
+}
+
+.text-in-treasure {
+    color: rgb(0, 195, 255);
+    font-size: 2em;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.673);
+    text-align: center;
+}
+
+.bubbles {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bubble-left-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble-left-11 {
+    display: flex;
+}
+
+.bubble-left-1 {
+    animation: fly 4s infinite 0.8s;
+}
+
+.bubble-left-2 {
+    animation: fly 4s infinite;
+}
+
+.bubble-left-12 {
+    display: flex;
+}
+
+.bubble-left-3 {
+    animation: fly 4s infinite 3s;
+}
+
+.bubble-left-4 {
+    animation: fly 4s infinite 2s;
+}
+
+.bubble-left-13 {
+    display: flex;
+}
+
+.bubble-left-5 {
+    animation: fly 4s infinite 4.4s;
+}
+
+.bubble-left-6 {
+    animation: fly 4s infinite 3.3s;
+}
+
+.bubble1-img {
+    width: 50px;
+}
+
+.bubble-right-11 {
+    display: flex;
+}
+
+.bubble-right-1 {
+    animation: fly 4s infinite 0.4s;
+}
+
+.bubble-right-2 {
+    animation: fly 4s infinite 0.7s;
+}
+
+.bubble-right-12 {
+    display: flex;
+}
+
+.bubble-right-3 {
+    animation: fly 4s infinite 1.4s;
+}
+
+.bubble-right-4 {
+    animation: fly 4s infinite 2.3s;
+}
+
+.bubble-right-13 {
+    display: flex;
+}
+
+.bubble-right-5 {
+    animation: fly 4s infinite 2.9s;
+}
+
+.bubble-right-6 {
+    animation: fly 4s infinite 3.5s;
+}
+
+.bubble2-img {
+    width: 50px;
+}
+
+
+@keyframes fly {
+    0% { 
+        translate: 0 0px;
+    }
+    100% {
+        translate: 0 -3450px;
+    }
+}
+
+/* name duration timing-function delay iteration-count direction fill-mode */
