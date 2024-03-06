@@ -168,19 +168,20 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 60px
 }
 .realistic-frog {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+    gap: 30px;
 }
 
 .realistic-frog-ingame{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 30px;
+    
 }
 
 .frog {
@@ -201,15 +202,17 @@ body {
 
 .realistic-tadpoel {
     display: flex;
-    margin-left: 90px ;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .realistic-tadpoel-ingame {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 30px;
+    justify-content: center;
+    
 }
 
 .tadpoel-game {
@@ -221,6 +224,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .real-tadpoel {
     width: 100%;
@@ -253,11 +257,13 @@ body {
 
 .instruction-first {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .instuction-img-first {
-
+    width: 30%;
+    height: 30%;
+    max-width: 200px;
+    align-self: center;
 }
 
 .instuction-text-first {
@@ -270,12 +276,14 @@ body {
     width: 100%;
     max-width: 400px;
     align-self: center;
+    justify-self: center;
 }
 
 .instruction-second {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .instuction-img-second {
@@ -431,6 +439,11 @@ body {
     .container {
         box-shadow: none;
     }
+    .realistic-tadpoel-real {
+        width: 400px;
+        
+    }
+    
 }
 
 
