@@ -148,6 +148,10 @@ body {
     margin: 10px;
 }
 
+.arrow-vertical {
+    width: 0;
+}
+
 .frog {
     width: 300px;
     margin: 0;
@@ -431,12 +435,6 @@ body {
     width: 50px;
 }
 
-
-
-.arrow-vertical {
-    width: 0;
-}
-
 @keyframes fly {
     0% { 
         translate: 0 0px;
@@ -445,6 +443,7 @@ body {
     }
     100% {
         translate: 0 -3450px;
+        opacity: 100;
     }
 }
 
@@ -477,6 +476,19 @@ body {
     .arrow-vertical {
         width: 200px;
     }
+
+    @keyframes fly {
+        0% { 
+            translate: 0 0px;
+            opacity: 100;
+            
+        }
+        100% {
+            translate: 0 -5550px;
+            opacity: 100;
+        }
+    }
+
 }    
 
 
