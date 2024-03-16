@@ -40,7 +40,7 @@ body {
     gap: 10px;
 }
 
-.logo {
+.loga {
     order: 1;
     display: flex;
     flex-direction: column;
@@ -388,6 +388,10 @@ body {
     border: none;
 }
 
+
+.download_button1 {
+    text-decoration: none;
+}
 
 .bubbles {
     display: flex;
