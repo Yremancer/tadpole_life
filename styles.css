@@ -277,6 +277,22 @@ body {
     max-width: 500px;
 }
 
+.music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.music-img-vinyl {
+    width: 100%;
+    max-width: 230px;
+}
+
+.music-text {
+    width: 100%;
+    max-width: 500px;
+}
 
 .gameplay-show {
     display: flex;
