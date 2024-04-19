@@ -153,12 +153,32 @@
             </div>
         </main>
         <footer class="footer">
-            <a href="https://drive.google.com/uc?export=download&id=1L4xN6xfYRbowop-eNWJDi-PET9U4qer9" class="download_button2">
-                <div class="download_button">
-                    <img src="assets/treasure.png" alt="" class="treasure">
-                    <p class="text-in-treasure">Скачать</p>
+            <div class="button-block">
+                <a href="https://drive.google.com/uc?export=download&id=1L4xN6xfYRbowop-eNWJDi-PET9U4qer9" class="download_button2">
+                    <div class="download_button">
+                        <img src="assets/treasure.png" alt="" class="treasure">
+                        <p class="text-in-treasure">Скачать</p>
+                    </div>
+                </a>
+            </div>
+            <form action="" class="form">
+                <div class="age-block">
+                    <p class="age-text">Возраст:</p>
+                    <select name="Age" id="ageID" class="age-selector">
+                        <option value="0-7">от 0 до 7 лет</option>
+                        <option value="7-10">от 7 до 10 лет</option>
+                        <option value="10-14">от 10 до 14 лет</option>
+                        <option value="14-18">от 14 до 18 лет</option>
+                        <option value="18+">старше 18</option>
+                    </select>
                 </div>
-            </a>
+
+                <div class="review">
+                    <label for="rId">Комментарий:</label>
+                    <textarea name="" id="rId" cols="30" rows="10" placeholder="Оставьте отзыв" class="review-input text-input"></textarea>
+                </div>
+                <input type="submit" class="button-style">
+            </form>
         </footer>
     </div>
 </body>

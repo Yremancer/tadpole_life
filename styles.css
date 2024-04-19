@@ -361,13 +361,18 @@ body {
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: url('assets/site-sand-dnishe.png');
-    height: 180px;
+    height: 500px;
 }
 .link {
     text-decoration: none;
+}
+
+.button-block{
+
 }
 
 .download_button {
@@ -382,8 +387,8 @@ body {
 
 .text-in-treasure {
     position: relative;
-    right: 20px;
-    top: 44.6px; 
+    bottom: 70px;
+    right: 103px;
     color: rgb(240, 212, 41);
     font-size: 1.76em;
     text-align: center;
@@ -393,13 +398,15 @@ body {
     /* border-top: 0px solid rgb(128, 128, 128);;
     border-bottom: 0px solid rgb(128, 128, 128);; */
     background-color: rgb(75, 43, 20);
-    rotate: 4.3deg;
+    rotate: 3deg;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 
 .treasure {
-    position: absolute;
+    position: relative;
+    left: 110px;
+    bottom: 115px;
     max-width: 230px;
     width: 100%;
     height: 175px;
@@ -407,10 +414,72 @@ body {
     border: none;
 }
 
-
 .download_button1 {
     text-decoration: none;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.text-input{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.lastName {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.age-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.age-text {
+    margin: 0px;
+    padding: 0px;
+}
+
+.age-selector{
+    width: 70%;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea.review-input{
+    min-height: 120px;
+    resize: vertical;
+}
+
+.button-style{
+    background-color: aqua;
+    border: 1.2px solid black;
+    border-radius: 15px;
+    height: 40px ;
+    font-size: 18px;
+}
+
+
 
 .bubbles {
     display: flex;
@@ -628,6 +697,10 @@ body {
     .sound-img {
         width: 100%;
         width: 300px;
+    }
+    .form {
+        gap: 10px;
+        width: 70%;
     } 
 }
 
