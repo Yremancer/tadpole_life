@@ -596,6 +596,13 @@ textarea.review-input{
     }
 }
 
+@media (max-width: 700px) {
+    .form {
+        gap: 10px;
+        width: 70%;
+    } 
+}
+
 @media (max-width: 500px) {
     .download_button {
         left: 0px;
@@ -698,10 +705,6 @@ textarea.review-input{
         width: 100%;
         width: 300px;
     }
-    .form {
-        gap: 10px;
-        width: 70%;
-    } 
 }
 
 /* name duration timing-function delay iteration-count direction fill-mode */
