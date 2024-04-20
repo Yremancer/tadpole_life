@@ -596,7 +596,7 @@ textarea.review-input{
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .form {
         gap: 10px;
         width: 70%;
