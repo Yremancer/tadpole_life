@@ -3,11 +3,11 @@ const nodemailer = require("nodemailer");
 
 const server = express();
 
-server.use(express.static(__dirname));
+server.use(express.static(__dirname + '/public'));
 server.use(express.json());
 
 server.get("*", (req, res) => {
-  res.sendFile("index.html", { root: __dirname });
+  res.sendFile("public/index.html", { root: __dirname });
 });
 
 server.post("/api/feedback", async (req, res) => {
