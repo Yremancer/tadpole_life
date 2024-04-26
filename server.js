@@ -22,17 +22,18 @@ server.post("/api/feedback", async (req, res) => {
       },
     });
 
-    const { message, age } = req.body;
+    const { message, age, star } = req.body;
 
     await transporter.sendMail({
       from: "chilumy@mail.ru",
       to: "nik.zagibalov.00@mail.ru",
       subject: "Тема письма",
-      text: `${message}, ${age}`,
+      text: `${message}, ${age}, ${star}`,
       html: 
       `
       <p>${message}</p>
       <p>${age}</p>
+      <p>${star}</p>
       `
     });
 

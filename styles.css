@@ -365,7 +365,7 @@ body {
     justify-content: center;
     align-items: center;
     background: url('assets/site-sand-dnishe.png');
-    height: 500px;
+    height: 550px;
 }
 .link {
     text-decoration: none;
@@ -458,6 +458,22 @@ body {
 
 .age-selector{
     width: 70%;
+}
+
+.star-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.star-text {
+    margin: 0px;
+    padding: 0px;
+}
+
+.star-selector{
+    width: 70%;
+
 }
 
 .review {

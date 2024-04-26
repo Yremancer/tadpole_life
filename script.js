@@ -11,7 +11,7 @@ function sendFeedback(feedback) {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
-      alert("Форма успешно отправлена!");
+      alert("Спасибо за отзыв!");
     })
     .catch((error) => {
       console.error("Ошибка:", error);
