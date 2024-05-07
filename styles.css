@@ -40,12 +40,18 @@ body {
     gap: 10px;
 }
 
+.loga-link{
+    text-decoration: none;
+    color: black;
+}
+
 .loga {
     order: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 0px;
+    cursor: pointer;
 }
 
 .logo-img {
@@ -364,7 +370,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('assets/site-sand-dnishe.png');
+    background: url('assets/site-sand-dnishe.png');   
+    background-clip: content-box;
+    background-repeat: no-repeat;
     height: 550px;
 }
 .link {
