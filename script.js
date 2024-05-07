@@ -24,9 +24,9 @@ FEEDBACK_FORM.addEventListener("submit", (e) => {
   const feedbackFormData = new FormData(e.target);
   const feedback = Object.fromEntries(feedbackFormData);
   sendFeedback(feedback);
+  const answer = document.querySelector("#rId").value = "";
 });
-const answer = document.querySelector("#rId").value = "";
-answer = ''
+
 
 
 
