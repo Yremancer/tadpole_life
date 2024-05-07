@@ -371,7 +371,7 @@ body {
     justify-content: center;
     align-items: center;
     background: url('assets/site-sand-dnishe.png');   
-    background-clip: content-box;
+    background-clip: border-box;
     background-repeat: no-repeat;
     height: 550px;
 }
